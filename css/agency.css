@@ -313,8 +313,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Montserrat, "Helvetica Neue",Arial,sans-serif;
         font-size: 60px;
         font-weight: 700;
         line-height: 60px;
@@ -329,6 +328,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 section h3.section-subheading {
@@ -654,13 +654,13 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/womanlaptop.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #fed136;
 }
 
 section#contact .form-group {
@@ -668,16 +668,22 @@ section#contact .form-group {
 }
 
 section#contact .form-group input,
+
 section#contact .form-group textarea {
     padding: 20px;
+    margin: 0 auto;
+    
 }
 
 section#contact .form-group input.form-control {
     height: auto;
+
+
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    margin: 0 auto;
 }
 
 section#contact .form-control:focus {
@@ -689,28 +695,28 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #e74c3c;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #e74c3c;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #e74c3c;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #e74c3c;
 }
 
 section#contact .text-danger {
